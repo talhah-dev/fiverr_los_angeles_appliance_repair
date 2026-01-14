@@ -21,6 +21,7 @@ navbar.innerHTML = `
 
                         <div class="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                             <div class="w-72 bg-white border border-gray-200 rounded-2xl shadow-xl overflow-hidden">
+
                                 <a href="/washer-repair.html" class="flex items-center gap-3 px-5 py-4 hover:bg-gray-50 transition">
                                     <span class="w-10 h-10 rounded-xl bg-yellow-400/30 flex items-center justify-center text-blue-900">
                                         <i class="fa-solid fa-soap"></i>
@@ -55,6 +56,14 @@ navbar.innerHTML = `
                                     </span>
                                     <span class="font-semibold">Oven Repair</span>
                                 </a>
+
+                                <a href="/dishwasher-repair.html" class="flex items-center gap-3 px-5 py-4 hover:bg-gray-50 transition">
+                                    <span class="w-10 h-10 rounded-xl bg-yellow-400/30 flex items-center justify-center text-blue-900">
+                                        <i class="fa-solid fa-water"></i>
+                                    </span>
+                                    <span class="font-semibold">Dishwasher Repair</span>
+                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -100,6 +109,7 @@ navbar.innerHTML = `
                     <a href="/refrigerator-repair.html" class="hover:text-yellow-400 transition">Refrigerator Repair</a>
                     <a href="/stove-repair.html" class="hover:text-yellow-400 transition">Stove Repair</a>
                     <a href="/oven-repair.html" class="hover:text-yellow-400 transition">Oven Repair</a>
+                    <a href="/dishwasher-repair.html" class="hover:text-yellow-400 transition">Dishwasher Repair</a>
                 </div>
             </div>
 
