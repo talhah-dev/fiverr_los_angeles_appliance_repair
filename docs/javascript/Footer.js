@@ -6,7 +6,7 @@ footer.innerHTML = `
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 mb-16">
 
             <div data-aos="fade-up">
-                <h3 class="text-2xl font-extrabold text-white mb-4">
+                <h3 class="text-2xl font-bold text-white mb-4">
                     Los Angeles Appliance Repair
                 </h3>
                 <p class="text-blue-200 mb-6 leading-relaxed">
@@ -28,11 +28,11 @@ footer.innerHTML = `
                     Our Services
                 </h4>
                 <ul class="space-y-3">
-                    <li><a href="#" class="hover:text-yellow-400 transition">Washer Repair</a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition">Dryer Repair</a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition">Refrigerator Repair</a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition">Oven Repair</a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition">Dishwasher Repair</a></li>
+                    <li><a href="/washer-repair.html" class="hover:text-yellow-400 transition">Washer Repair</a></li>
+                    <li><a href="/dryer-repair.html" class="hover:text-yellow-400 transition">Dryer Repair</a></li>
+                    <li><a href="/refrigerator-repair.html" class="hover:text-yellow-400 transition">Refrigerator Repair</a></li>
+                    <li><a href="/oven-repair.html" class="hover:text-yellow-400 transition">Oven Repair</a></li>
+                    <li><a href="/dishwasher-repair.html" class="hover:text-yellow-400 transition">Dishwasher Repair</a></li>
                 </ul>
             </div>
 
@@ -41,10 +41,10 @@ footer.innerHTML = `
                     Quick Links
                 </h4>
                 <ul class="space-y-3">
-                    <li><a href="#" class="hover:text-yellow-400 transition">Home</a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition">About</a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition">Services</a></li>
-                    <li><a href="#" class="hover:text-yellow-400 transition">Contact Us</a></li>
+                    <li><a href="/index.html" class="hover:text-yellow-400 transition">Home</a></li>
+                    <li><a href="/about.html" class="hover:text-yellow-400 transition">About</a></li>
+                    <li><a href="/services.html" class="hover:text-yellow-400 transition">Services</a></li>
+                    <li><a href="/contact.html" class="hover:text-yellow-400 transition">Contact Us</a></li>
                 </ul>
             </div>
 
